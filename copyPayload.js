@@ -1,6 +1,29 @@
-programs = ['BruteSSH.exe', 'FTPCrack.exe', 'relaySMTP.exe', 'HTTPWorm.exe', 'SQLInject.exe']
-scriptsToCopy = ['hack-scheduler.script', 'grow-scheduler.script', 'weaken-target.script', 'grow-target.script', 'hack-target.script', 'start.script', 'daemon.script', 'spider.script'];
-fnsScripts = ['foodNStuffGrow.script', 'foodNStuffGrow.script', 'foodNStuffHack.script', 'foodNStuffWeaken.script', 'foodNStuffGrow.script'];
+programs = [
+  'BruteSSH.exe',
+  'FTPCrack.exe',
+  'relaySMTP.exe',
+  'HTTPWorm.exe',
+  'SQLInject.exe'
+];
+
+scriptsToCopy = [
+  'hack-scheduler.script',
+  'grow-scheduler.script',
+  'weaken-target.script',
+  'grow-target.script',
+  'hack-target.script',
+  'start.script',
+  'daemon.script',
+  'spider.script'
+];
+
+fnsScripts = [
+  'foodNStuffGrow.script',
+  'foodNStuffGrow.script',
+  'foodNStuffHack.script',
+  'foodNStuffWeaken.script',
+  'foodNStuffGrow.script'
+];
 
 target = args[0]
 
