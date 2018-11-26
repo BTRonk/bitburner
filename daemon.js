@@ -58,14 +58,14 @@ hackThreadHardening = 0.002;
 //constant, potency of weaken threads
 weakenThreadPotency = 0.05 * bitnodeWeakenMult;
 
-// hacking target requires 1.50GB of RAM to run for 1 thread(s)
-hackCost = 1.5;
+// hacking target requires 1.7GB of RAM to run for 1 thread(s)
+hackCost = 1.7;
 
-// weaken-target.script requires 1.55GB of RAM to run for 1 thread(s)
-weakenCost = 1.555;
+// weaken-target.script requires 1.75GB of RAM to run for 1 thread(s)
+weakenCost = 1.75;
 
-// grow-target.script requires 1.55GB of RAM to run for 1 thread(s)
-growCost = 1.555;
+// grow-target.script requires 1.75GB of RAM to run for 1 thread(s)
+growCost = 1.75;
 
 // one-time scheduler cost per cycle
 schedulerCost = 2.50 * 2;
